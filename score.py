@@ -1,9 +1,12 @@
-match={
-    "team1": "Barcelona",
-    "team2": "Real Madrid",
-    "score": "2 - 1"
-}
+# Ask user for team names
+team1 = input("Enter name of Team 1: ")
+team2 = input("Enter name of Team 2: ")
 
-print("Match Score:")
-print(match["team1"], "vs", match["team2"])
-print("Final Score:", match["score"])
+# Ask user for scores
+score1 = input(f"Enter score for {team1}: ")
+score2 = input(f"Enter score for {team2}: ")
+
+# Print the result
+print("\nMatch Score:")
+print(f"{team1} vs {team2}")
+print(f"Final Score: {score1} - {score2}")
